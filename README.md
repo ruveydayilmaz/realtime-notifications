@@ -33,7 +33,3 @@ npm start
 ## Screenshots  
 
 ![App Screenshot](gif.gif)
-
-## Feedback  
-
-If you have any feedback, please reach out to me at ruveydanryilmaz@gmail.com
