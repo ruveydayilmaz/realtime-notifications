@@ -3,17 +3,32 @@
     <head>
         <meta charset="utf-8">
         <title>Notify</title>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
-        <link href="/styles.css" rel="stylesheet" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.1/socket.io.js"></script>
+        <link href="./styles.css" rel="stylesheet" />
     </head>
     <body>
-
         <div id="notify-container">
             <h2>Notify Users</h2>
-            <div id="output"></div>
-            <button id="send">Send</button>
+            <div id="choose-div">
+                <input id="user-id" type="text" placeholder="Choose a user ID">
+                <button id="choose-btn">Ok!</button>
+            </div>
+            <div id="container">
+                <div>
+                    <h3>Send to all users</h3>
+                    <div id="output"></div>
+                    <input id="input" type="text" placeholder="Write something..">
+                    <button id="send">Send</button>                    
+                </div>
+                <div>
+                    <h3>Send to a spesific user</h3>
+                    <div id="output2"></div>
+                    <input id="user" type="text" placeholder="User ID">
+                    <input id="input2" type="text" placeholder="Write something..">
+                    <button id="send2">Send</button>   
+                </div>                
+            </div>
         </div>
-
     </body>
-    <script src="/chat.js"></script>
+    <script src="./chat.js"></script>
 </html>

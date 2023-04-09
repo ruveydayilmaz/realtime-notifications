@@ -1,40 +1,99 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-h2{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h2 {
     font-size: 20px;
-}
-
-#notify-container{
+    color: #2696b8;
+  }
+  
+  #notify-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  #container {
+    display: none;
+    width: 80%;
+    height: 80%;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
 
-#output p{
-    padding: 14px 0px;
-    margin: 0 20px;
-    border-bottom: 1px solid #e9e9e9;
-    color: #555;
-}
-
-#output strong{
-    color: #2696b8;
-}
-
-button{
+  #container div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }  
+  
+  #container > div {
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+  }
+  
+  #output,
+  #output2 {
+    height: 80%;
+    overflow-y: auto;
+    border-top: 1px solid #2696b8;
+    padding-top: 10px;
+  }
+  
+  #output p {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #2696b8;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  #output strong {
+    font-weight: bold;
+  }
+  
+  #output2 p {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #2f4f4f;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  #output2 strong {
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid #2696b8;
+    font-size: 16px;
+  }
+  
+  button {
     margin-top: 10px;
     background: #2696b8;
     color: #fff;
     font-size: 18px;
     border: 0;
     padding: 12px 0;
-    width: 100px;
-    height: 100px;
+    width: 100%;
     cursor: pointer;
-}
-
-button:hover {
+  }
+  
+  button:hover {
     background: #26819c;
-}
+  }
+  
