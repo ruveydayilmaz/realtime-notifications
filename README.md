@@ -33,8 +33,4 @@ npm start
 Now open the index.html on a browser.
 
 ## Demo  
-
-<video controls>
-  <source src="./demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://user-images.githubusercontent.com/74985368/230783862-c5750307-5b35-4121-bc24-869a18e725e5.mp4
